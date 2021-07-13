@@ -1,8 +1,14 @@
 .App{
     height: 100%;
-    width: 100%;
+    width: 100% !important;
     display: flex;
+    /* overflow: hidden; */
 }
 .topBar{
     display: row;
+    height: 8vh;
+    width: 92vw;
+}
+.mainBody{
+    display: grid;
 }

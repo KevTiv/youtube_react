@@ -6,26 +6,26 @@ import {AiFillHome} from "react-icons/ai";
 function SideBar() {
     return(
         <div className="sidebar">
-            <div className="burgerMenu">
+            <button className="burgerMenu">
                 <MdMenu className="burgerMenuLogo" />
-            </div>
+            </button>
 
-            <div className="homeComponent">
+            <div className="homeComponent canHover">
                 <AiFillHome className="homeComponentLogo" />
                 <div>Home</div>
             </div>
 
-            <div className="exploreComponent">
+            <div className="exploreComponent canHover">
                 <MdExplore className="exploreComponentLogo" />
                 <div>Explore</div>
             </div>
 
-            <div className="subscriptionComponent">
+            <div className="subscriptionComponent canHover">
                 <MdSubscriptions className="subscriptionComponentLogo" />
                 <div>Subscriptions</div>
             </div>
 
-            <div className="libraryComponent">
+            <div className="libraryComponent canHover">
                 <MdVideoLibrary className="libraryComponentLogo" />
                 <div>Library</div>
             </div>

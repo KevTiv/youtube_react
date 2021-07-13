@@ -1,0 +1,19 @@
+/* @import './App.css'; */
+
+.mainPanel{
+    display: grid;
+    flex-direction: row;
+    height: 95vh;
+    width: 92vw;
+    background: orange;
+    grid-gap: 0;
+    grid-template-columns: repeat(4, 186px);
+    grid-auto-flow: row;
+}
+
+.videoWindow{
+    position: relative;
+    height: 180px;
+    width: 180px;
+    border: 1px solid red;
+}
